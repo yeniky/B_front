@@ -1,0 +1,155 @@
+/* CONTAINER MODAL */
+.container-modal {
+  position: fixed;
+  border-radius: 7px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 4;
+  max-width: 75rem;
+  transform: translate(-50%, -50%);
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #10384f;
+}
+
+.modal-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0px 0px; */
+}
+.container-header h2 {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.close-elem {
+  cursor: pointer;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px 20px;
+  width: 20rem;
+}
+
+.select-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  padding-left: 5px;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+.bin-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.bin-elem-cnt {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 2px 0;
+  padding: 0 5px;
+}
+
+.bin-elem {
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 0;
+}
+
+.batch-type-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.batch-type-cnt h4 {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.batch-type-cnt input {
+  margin: 0 10px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.batch-type-cnt label {
+  font-size: 1.2rem;
+}
+
+.Select-container {
+  width: 50%;
+}
+
+.modal-form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-form-create {
+  border: none;
+  border-radius: 7px;
+  background-color: #10384f;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+.button-form-cancel {
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(218, 51, 51);
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.modal-form input,
+select,
+textarea {
+  width: 15rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.modal-form {
+  position: relative;
+}
+.modal-form p {
+  position: absolute;
+}

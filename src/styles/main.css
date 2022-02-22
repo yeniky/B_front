@@ -1,0 +1,501 @@
+/* TOP BAR STYLES*/
+
+.top-bar {
+  display: flex;
+  background-color: #e8ffff;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  margin-bottom: 5px;
+}
+
+.main-title {
+  font-weight: lighter;
+  font-stretch: ultra-condensed;
+  letter-spacing: 0;
+}
+
+.logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  width: 290px;
+  height: 100%;
+  background-color: #10384f;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.flatenize {
+  display: flex;
+  justify-content: center;
+}
+
+.notifications {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.warning-logo {
+  margin-right: 20px;
+  transform: scale(2);
+}
+
+.header-icon {
+  padding-right: 4px;
+}
+
+.alert {
+  color: red;
+}
+
+.warning {
+  color: #e67e22;
+}
+
+.links {
+  align-self: flex-end;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.links a p {
+  color: rgb(98, 73, 99);
+  padding: 0 2px 4px 2px;
+  font-weight: lighter;
+  transition: all 0.1s ease-out;
+}
+
+.links a p:hover,
+.links a p:focus {
+  color: #10384f;
+  border-bottom: 4px solid rgba(98, 73, 99, 1);
+}
+
+.section-active {
+  color: #10384f;
+  font-weight: normal;
+  border-bottom: 4px solid rgba(98, 73, 99, 1);
+}
+
+.user-header {
+  align-self: flex-start;
+  font-size: 0.8em;
+  padding: 5px 2px;
+  cursor: pointer;
+}
+
+.alert-box {
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.alert-box:hover {
+  color: rgba(98, 73, 99, 0.5);
+}
+
+/* DASHBOARD STYLES */
+
+.dashboard-header {
+  background: linear-gradient(
+    0.49turn,
+    rgb(98, 73, 99) 0%,
+    rgb(98, 73, 99) 50%,
+    rgb(98, 73, 99) 50%,
+    #10384f 50%,
+    #10384f 100%
+  );
+  height: 100px;
+}
+
+.button-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.button-header {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: lighter;
+  padding: 0.5em 1.9em;
+  border: 0.1em solid rgba(232, 61, 92, 1);
+  margin: 0 0.3em 0 0;
+  border-radius: 0.12em;
+  color: white;
+  background-color: rgba(232, 61, 92, 0.8);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button-header:hover {
+  color: #e83d5c;
+  background-color: white;
+  border: 0.1em solid white;
+}
+
+.button-selected {
+  color: #e83d5c;
+  background-color: white;
+  border: 0.1em solid white;
+}
+
+.dashboard {
+  height: 78%;
+}
+
+.dashboard-icon {
+  color: white;
+  padding: 1px 2px;
+  margin-right: 5px;
+}
+
+.leaflet-container {
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+}
+
+.main-map {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  height: 100%;
+}
+
+.alert-tag {
+  background-color: rgba(255, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.warning-tag {
+  background-color: rgba(255, 255, 0, 0.8);
+  border-radius: 10px;
+}
+
+/* TAG INFORMATION */
+.tag-information {
+  border: 1px solid #10384f;
+  padding-bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  padding-bottom: 2rem;
+}
+
+.information-header {
+  background-color: #10384f;
+  color: white;
+  vertical-align: middle;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bin-info-button {
+  background-color: #10384f;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.7rem;
+  margin-top: 7px;
+}
+.information-header h2 {
+  padding-left: 25px;
+}
+
+.header-close-button {
+  cursor: pointer;
+  padding: 0 8px;
+  border-radius: 16px;
+  transition: all 0.1s ease-out;
+}
+
+.header-close-button:hover {
+  background-color: white;
+  color: rgb(98, 73, 99);
+}
+
+.information-header h2 {
+  margin: 0;
+}
+
+.information-body {
+  padding: 10px 15rem 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: auto;
+  color: #10384f;
+}
+.information-alert-header {
+  display: flex;
+  align-items: center;
+}
+.information-alert-header h3 {
+  color: rgba(255, 0, 0, 0.8);
+}
+.info-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15rem;
+}
+
+.info-cnt p {
+  padding-bottom: 0.2em;
+  font-size: 1rem;
+}
+
+.info-cnt h4 {
+  padding: 0;
+  margin: 0 0 0.4rem 0;
+}
+
+.info-cnt h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-top: 0;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #10384f;
+  font-weight: 700;
+}
+
+.marker-tooltip {
+  padding: 0;
+  margin: 0;
+}
+
+.filter-body {
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hide-filter-body {
+  display: block;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.select-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  box-shadow: 1px 5px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.select-box label {
+  border-radius: 3px 3px 0 0;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: lighter;
+  color: white;
+  background-color: #e83d5c;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+.info-buttons button {
+  background-color: #10384f;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.7rem;
+  margin-top: 7px;
+}
+
+/*
+people smarter than me....
+https://github.com/scottaohara/a11y_styled_form_controls/blob/master/src/select/index.html
+*/
+/**
+ * Styles for the wrapping element and
+ * the custom down arrow / background
+ */
+.select {
+  background-color: #10384f;
+  position: relative;
+  border-radius: 0 0 3px 3px;
+}
+
+.select:after,
+.select:before {
+  bottom: 0;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+}
+
+.select:before {
+  right: 0;
+  width: 1.85em;
+}
+
+.select:after {
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  height: 0.5em;
+  margin: auto;
+  right: 0.75em;
+  transform-origin: right;
+  transform: rotate(45deg);
+  width: 0.5em;
+  z-index: 2;
+}
+
+.select:focus-within:before {
+  background-color: #015f9f;
+}
+
+/**
+   * Target only select elements that are
+   * child elements of the custom style.
+   * These styles could really mess up other
+   * selects that aren't within the parent wrapper.
+   */
+.select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0 0 3px 3px;
+  border: 1px solid #000;
+  color: #fff;
+  line-height: normal;
+  max-width: 100%;
+  padding: 0.15em 1.15em 0.15em 1.15em;
+  width: 100%;
+  text-align: center;
+}
+
+/*.select select:focus-visible*/
+.select select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #fff;
+}
+
+.select select:focus {
+  border-color: #015f9f;
+  box-shadow: inset 0 0 0 1px #015f9f, 0 0 0 2px #015f9f;
+  outline: none;
+}
+
+.select select:disabled {
+  color: rgba(255, 255, 255, 0.75);
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+.select select:invalid {
+  background: darkred;
+}
+
+/* firefox will change the background of options to
+     match the select's background. */
+.select select:invalid option {
+  background: lightgrey;
+}
+
+/**
+   * 1. remove background focus style from IE11 while keeping
+   *    focus style available on option elements
+   * 2. remove the default down arrow in IE/Edge
+   */
+.select select::-ms-value {
+  background: transparent; /* 1 */
+}
+
+.select select::-ms-expand {
+  display: none; /* 2 */
+}
+
+/**
+   * Child elements of the select
+   */
+.select select:focus option:not(:disabled),
+.select select:focus optgroup:not(:disabled) {
+  color: #111;
+  text-shadow: none;
+}
+
+.select option:disabled,
+.select optgroup:disabled {
+  color: rgba(50, 50, 50, 0.75);
+}
+
+/**
+   * Support for rtl text, explicit support for Arabic and Hebrew
+   * credit: https://twitter.com/aardrian/status/1075587790656675840
+   */
+[dir="rtl"] .select:before,
+:root:lang(ar) .select:before,
+:root:lang(iw) .select:before {
+  left: 0;
+  right: auto;
+}
+
+[dir="rtl"] .select:after,
+:root:lang(ar) .select:after,
+:root:lang(iw) .select:after {
+  left: 0.5em;
+  right: auto;
+}
+
+[dir="rtl"] .select select,
+:root:lang(ar) .select select,
+:root:lang(iw) .select select {
+  padding: 0.75em 0.75em 0.75em 2em;
+}
+
+.information-alert-list {
+  height: 8rem;
+  overflow-y: scroll;
+  width: 30rem;
+}
+.information-alert-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.information-alert-item p {
+  background-color: rgb(200, 42, 21);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.information-alert-item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,99 @@
+{
+  "tags": [
+    {
+      "id": "005",
+      "seed": "Seed type here",
+      "type": "seed type here",
+      "code": "codewillbe",
+      "batch": "00AF",
+      "description": "tag de pruebas",
+      "position": {
+        "zone:": "Warehouse",
+        "timestamp": "2020-01-15T14:58:17.571Z",
+        "battery": 45,
+        "signal": 145,
+        "x": 450,
+        "y": 500
+      },
+      "alerts": [
+        {
+          "level": "warning",
+          "date": "2020-01-15T14:58:17.571Z",
+          "type": "position",
+          "detail": "Detencion en zona A"
+        }
+      ]
+    },
+    {
+      "id": "A77",
+      "seed": "Seed type here",
+      "type": "seed type here",
+      "code": "codewillbe",
+      "batch": "00AF",
+      "description": "tag de pruebas",
+      "position": {
+        "zone:": "Warehouse",
+        "timestamp": "2020-01-15T14:58:17.571Z",
+        "battery": 45,
+        "signal": 145,
+        "x": 490,
+        "y": 520
+      },
+      "alerts": [
+        {
+          "level": "alert",
+          "date": "2020-01-15T14:58:17.571Z",
+          "type": "proximity",
+          "detail": "TOO CLOSE FOR COMFORT"
+        }
+      ]
+    },
+    {
+      "id": "Z57",
+      "seed": "Seed type here",
+      "type": "seed type here",
+      "code": "codewillbe",
+      "batch": "00AG",
+      "description": "tag de pruebas 02",
+      "position": {
+        "zone:": "Warehouse",
+        "timestamp": "2020-01-15T14:58:17.571Z",
+        "battery": 45,
+        "signal": 145,
+        "x": 390,
+        "y": 720
+      },
+      "alerts": [
+        {
+          "level": "alert",
+          "date": "2020-01-15T14:58:17.571Z",
+          "type": "proximity",
+          "detail": "TOO CLOSE FOR COMFORT"
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "seed": "Seed type here",
+      "type": "seed type here",
+      "code": "codewillbe",
+      "batch": "00AF",
+      "description": "tag de pruebas",
+      "position": {
+        "zone:": "Warehouse",
+        "timestamp": "2020-01-15T14:58:17.571Z",
+        "battery": 45,
+        "signal": 145,
+        "x": 350,
+        "y": 510
+      },
+      "alerts": []
+    }    
+  ],
+  "zones": [
+    {
+      "name": "Warehouse",
+      "area": [[268, 560], [637, 755]]
+    }
+  ]
+}

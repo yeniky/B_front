@@ -1,0 +1,5 @@
+export const SET_MAP_ROTATION_ANGLE = 'SET_MAP_ROTATION_ANGLE';
+export const SET_MAP_ZOOM = 'SET_MAP_ZOOM';
+export const SET_MAP_CENTER = 'SET_MAP_CENTER';
+export const SET_MAP_STATUS = 'SET_MAP_STATUS';
+export const SET_UNLOADED_MAP = 'SET_UNLOADED_MAP';
